@@ -1,16 +1,17 @@
 <h1>RSA Decryption Using Chinese Remainder Theorem (CRT)</h1>
     <hr>
-    <h3>This document outlines the process of decrypting RSA ciphertext using the Chinese Remainder Theorem (CRT), particularly focusing on the case where the public exponent is small (e = 3) and multiple moduli are used.</h3>
+    <h3>This document outlines the process of decrypting RSA ciphertext using the Chinese Remainder Theorem (CRT), focusing on a case where the public exponent is small (e = 3) and multiple moduli are used.</h3>
     <hr>
+    
     <h2>Overview of Decryption Process</h2>
-    <p>To approach the decryption, I began by identifying the public exponent (e) and the associated moduli (n1, n2, n3). In this instance, the public exponent was set to 3, a relatively small value, which simplifies some aspects of the decryption.</p>
-    <p>The combined modulus, N, was calculated by multiplying the three individual moduli (N = n1 * n2 * n3). This step consolidated the encryption parameters into a single modulus that would serve as the basis for the subsequent computations.</p>
-<p>Next, partial products were derived for each modulus by dividing N by the respective modulus. These partial products (m1 = N/n1, m2 = N/n2, m3 = N/n3) were essential in applying CRT across the different moduli.</p>
-<p>Modular inverses were computed for each of these partial products in relation to their corresponding moduli. The inverses were required to combine the results from different moduli into a single coherent solution.</p>
+    <ul>
+        <li><strong>Identifying Parameters:</strong> I began by identifying the public exponent (e) and the moduli (n1, n2, n3). Here, the public exponent was 3, a small value that simplifies parts of the decryption process.</li>
+        <li><strong>Calculating the Combined Modulus:</strong> The combined modulus (N) was calculated by multiplying all three moduli together (N = n1 * n2 * n3). This provided a single modulus that would be used for the rest of the decryption.</li>
+        <li><strong>Deriving Partial Products:</strong> For each modulus, I derived partial products by dividing the combined modulus by the respective moduli (m1 = N/n1, m2 = N/n2, m3 = N/n3). These were necessary for applying CRT.</li>
+        <li><strong>Computing Modular Inverses:</strong> The next step involved computing the modular inverses of each partial product relative to its corresponding modulus. This ensured all values could be combined coherently.</li>
+        <li><strong>Applying the Chinese Remainder Theorem:</strong> Using CRT, I combined the ciphertexts by multiplying them with their corresponding partial products and modular inverses. The sum of these values was then taken modulo N.</li>
+        <li><strong>Extracting the Plaintext:</strong> Given that the public exponent was 3, the final value was cube-rooted to reveal the original plaintext message: <strong>-42800643192346137370256222640646094543767840305996925</strong>.</li>
+    </ul>
 
-<p>Once the inverses were established, the Chinese Remainder Theorem was applied. This involved multiplying the ciphertexts by the corresponding partial products and their modular inverses, then summing the results and taking the total modulo N.</p>
-
-<p>As the final step, the resulting value was processed by taking its cube root, since the public exponent was 3. This operation yielded the original plaintext message, which was <strong>-42800643192346137370256222640646094543767840305996925</strong>.</p>
-
-<h2>Conclusion</h2>
- <p>The use of the Chinese Remainder Theorem in RSA decryption, especially when handling multiple moduli, proved to be an efficient method. By combining the partial results and applying modular arithmetic, the decryption was completed effectively, allowing for the retrieval of the original message.</p>
+    <h2>Conclusion</h2>
+    <p>The Chinese Remainder Theorem is an effective method for RSA decryption, especially when dealing with multiple moduli. By systematically combining partial results and applying modular arithmetic, the decryption was performed efficiently, leading to the successful retrieval of the original message.</p>
