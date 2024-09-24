@@ -10,7 +10,7 @@
     <li><strong>Cracking the Password:</strong> I initiated the cracking process by running the command <code>./john zip_hash.txt</code>. John the Ripper used its wordlist attack to attempt cracking the password.</li>
     <li><strong>Viewing the Cracked Password:</strong> After the cracking process finished, I used the command <code>./john --show zip_hash.txt</code> to reveal the cracked password, which was <strong>softball3</strong>.</li>
     <li><strong>Opening the PDF:</strong> I opened the decrypted file using Okular, a PDF viewer, to reveal a base64-encoded string inside.</li>
-    <li><strong>Decoding the Message:</strong> I decoded the base64-encoded string by using the command <code>echo "encodedstring" | base64 --decode</code>. The base64 encoded message Rm9yZW5zaWNzIGlzIGZ1bg== decodes to <strong>Forensics is fun</strong>.</li>
+    <li><strong>Decoding the Message:</strong> I decoded the base64-encoded string by using the command <code>echo "encodedstring" | base64 --decode</code>. The base64 encoded message <ul><strong>Rm9yZW5zaWNzIGlzIGZ1bg==</strong></ul> decodes to <strong>Forensics is fun</strong>.</li>
 </ul>
 
 <h2>Conclusion</h2>
