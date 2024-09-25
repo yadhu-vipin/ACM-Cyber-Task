@@ -44,6 +44,20 @@
     <p>I intend to contribute by engaging in collaborative projects, mentoring fellow members, organizing workshops, and participating in open-source projects to enhance our learning environment.</p>
 <h3>What are your fields of interest, and how do you plan on working on them?</h3>
     <p>My primary interests lie in full-stack web development, cybersecurity, and game development. I plan to pursue internships and work on real-world projects to gain hands-on experience and deepen my expertise.</p>
+<h3>What I Would Like to Work on If I Get Selected Into the Club</h3>
+<p>
+    If given the opportunity to join the club, I would love to focus my efforts on the forensics department of cybersecurity, particularly in the areas of steganography, cryptography, and OSINT (Open-Source Intelligence). My fascination with steganography stems from its ability to hide information within seemingly innocuous files, revealing the art and science behind covert communication. I aim to explore techniques for detecting hidden data and understanding the implications of such methods in real-world scenarios.
+</p>
+<p>
+    Cryptography is another critical area that captivates me. The challenge of securing data through encryption and developing methods to protect sensitive information is paramount in today’s digital landscape. I aspire to delve deeper into cryptographic protocols and algorithms, contributing to projects that enhance data security and integrity.
+</p>
+<p>
+    Furthermore, I have a keen interest in OSINT, which involves collecting and analyzing information from publicly available resources. I believe that harnessing the power of OSINT can significantly improve threat intelligence and incident response strategies. I look forward to collaborating with fellow members on investigations that leverage these techniques to uncover actionable insights.
+</p>
+<p>
+    Overall, my goal is to contribute to innovative projects that push the boundaries of forensic cybersecurity, providing a deeper understanding of these critical areas and their applications in protecting information and uncovering threats.
+</p>
+
 
    <h2>Tasks List</h2>
     <table border="1">
