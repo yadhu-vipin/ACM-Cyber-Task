@@ -72,18 +72,18 @@
             <td>Completed</td>
         </tr>
         <tr>
+            <td></td>
             <td>Set-1</td>
-            <td></td>
             <td>Completed</td>
         </tr>
         <tr>
+            <td></td>
             <td>Set-2</td>
-            <td></td>
             <td>Completed</td>
         </tr>
         <tr>
-            <td>Set-3</td>
             <td></td>
+            <td>Set-3</td>
             <td>InCompleted</td>
         </tr>
         <tr>
