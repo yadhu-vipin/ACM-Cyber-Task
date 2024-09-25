@@ -92,8 +92,8 @@
             <td>Completed</td>
         </tr>
         <tr>
-            <td>Crack the Code</td>
             <td></td>
+            <td>Crack the Code</td>
             <td>Completed</td>
         </tr>
         <tr>
@@ -102,8 +102,8 @@
             <td>Completed</td>
         </tr>
         <tr>
-            <td>Serene Escape</td>
             <td></td>
+            <td>Serene Escape</td>
             <td>Completed</td>
         </tr>
     </table>
