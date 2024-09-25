@@ -8,24 +8,13 @@
     <h1>Welcome to ACM Cyber Tasks Done by Me!</h1>
 
 <h2>About Me</h2>
-    <p>Hello! I'm Arjun Rajesh, a student at Amrita Vishwa Vidyapeetham, Amritapuri. I am passionate about coding, programming, and all things tech, whether it's mobile, PC, embedded systems, or supercomputers. My journey in the tech world is fueled by a deep love for learning, innovation, and cybersecurity.</p>
+    <p>Hello! myself Yadhu Vipin, a student at Amrita Vishwa Vidyapeetham, Amritapuri. I am passionate about coding, programming, and all things tech, whether it's mobile or PC's ,or any IOT's. My journey in the tech world is fueled by a deep love for learning, innovation, and cybersecurity.</p>
 
 <h2>Introspection</h2>
     <p>Reflecting on my journey thus far, I've come to appreciate the power of consistency and unwavering perseverance. Challenges have been my stepping stones, shaping me into a more resilient individual. I eagerly anticipate pushing my boundaries further, especially in the field of cybersecurity.</p>
 
 <h2>Why Choose Me?</h2>
     <p>You should choose me because I possess a diverse skill set that includes proficiency in several programming languages and technologies. I have a genuine enthusiasm for learning and innovation, particularly in cybersecurity and full-stack development, which allows me to approach challenges with creativity and technical acumen.</p>
-
-<h2>Licenses & Certifications</h2>
-    <ul>
-        <li>Cisco Cybersecurity Specialist (CCS) - Cisco</li>
-        <li>Information Technology Specialist in Cybersecurity - Pearson</li>
-        <li>AI/ML For Geodata Analysis - Indian Institute of Remote Sensing (IIRS), ISRO</li>
-        <li>Oracle Academy Java Programming - Oracle Academy</li>
-        <li>HackerRank Java (Basic) Certificate - HackerRank</li>
-        <li>HackerRank Python (Basic) Certificate - HackerRank</li>
-        <li>Introduction to Career Skills in Software Development - LinkedIn</li>
-    </ul>
 
 <h2>Skills</h2>
     <ul>
