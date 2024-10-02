@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Welcome to ACM Cyber Tasks Done by Me!</h1>
 
 <h2>About Me</h2>
     <p>Hello! myself Yadhu Vipin, a student at Amrita Vishwa Vidyapeetham, Amritapuri. I am passionate about coding, programming, and all things tech, whether it's mobile or PC's ,or any IOT's. My journey in the tech world is fueled by a deep love for learning, innovation, and cybersecurity.</p>
